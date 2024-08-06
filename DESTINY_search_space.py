@@ -75,7 +75,7 @@ solutions = generate_solutions(size_in_mb = 144)
 print(f"Total number of solutions: {len(solutions)}")
 
 #example solutions: 
-print(solutions[int(len(solutions)/2)])
+print(solutions[6900])
 
 # Filter solutions to get unique values of capacity_in_mb and num_mats_col
 unique_capacity_in_mb = set()

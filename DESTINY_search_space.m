@@ -7,7 +7,7 @@ function DESTINY_search_space()
 
     if ~isempty(solutions)
         disp('Example solution:');
-        disp(solutions(floor(length(solutions)/2)));
+        disp(solutions(6900));
     end
 
     % Filter solutions to get unique values
