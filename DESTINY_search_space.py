@@ -5,7 +5,7 @@ from itertools import product
 def generate_solutions(size_in_mb):
     solutions = []
     # Define the search space
-    capacity_divisors = [i for i in range(1, size_in_mb) if size_in_mb % i == 0] #capacity in MB of 128 MB or it's divisors
+    capacity_divisors = [i for i in range(1, size_in_mb+1) if size_in_mb % i == 0] #capacity in MB or it's divisors
     word_width_options = [2**i for i in range(3, 11)]  # 8 to 1024 wordwidts
     #mux_options_amp = np.arange(1, 257) # only integer values starting from 1 to 256
     #mux_options2 = np.arange(1, 257) # only integer values starting from 1 to 256
