@@ -14,7 +14,7 @@ def generate_solutions(size_in_mb):
     mux_options2 = [1,2,4,8,64,128,256]  
     mux_options3 = [1,2,4,8,64,128,256] 
     # Generate square mat sizes that divide 144 evenly
-    mat_sizes = [i for i in range(1, 13) if 144 % (i * i) == 0] #12x12 mats or its equal subcombinations
+    mat_sizes = [i for i in range(1, 13) if 144 % (i * i) == 0] #12x12 mats or its equal subcombinations, can be change to any number!
     subbaray_set = [1,2,4,6,8,10,12]
     
     # Generate all combinations
